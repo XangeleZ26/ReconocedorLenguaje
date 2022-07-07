@@ -279,7 +279,7 @@ public class Mecanismo {
 
     }
     public void parser(String cadena) { //En el parametro va la cadena de cada linea
-//        int q = 0;
+
         ObjectInt q = new ObjectInt(0);
         this.j = 0;
         this.cadenaActual=cadena;
@@ -426,68 +426,8 @@ public class Mecanismo {
                         break;
 
                     case 12:
-//                        if (tok.tipo.equalsIgnoreCase("ID")) {
-//                            q.numero = 13;
-//                        } else if (tok.tipo.equalsIgnoreCase("NE") || tok.tipo.equalsIgnoreCase("NR")) {
-//                            q.numero = 16;
-//
-//                        } else {
-//                            q.numero = -1;
-//                        }
                         q.numero=parserLL1(cadena);
                         break;
-
-//                    case 13:
-//                        if (tok.nom.equalsIgnoreCase("+") || tok.nom.equalsIgnoreCase("-") || tok.nom.equalsIgnoreCase("*") || tok.nom.equalsIgnoreCase("/")) {
-//                            q.numero = 14;
-//                        } else if (tok.nom.equalsIgnoreCase("$")) {
-//                            q.numero = 100; //estado final
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
-
-//                    case 14:
-//                        if (tok.tipo.equalsIgnoreCase("ID") || tok.tipo.equalsIgnoreCase("NE") || tok.tipo.equalsIgnoreCase("NR")) {
-//                            q.numero = 15;
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
-//
-//                    case 15:
-//                        if (tok.nom.equalsIgnoreCase("$")) {
-//                            q.numero = 100; //estado final                   
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
-
-//                    case 16:
-//                        if (tok.nom.equalsIgnoreCase("+") || tok.nom.equalsIgnoreCase("-") || tok.nom.equalsIgnoreCase("*") || tok.nom.equalsIgnoreCase("/")) {
-//                            q.numero = 17;
-//                        } else if (tok.nom.equalsIgnoreCase("$")) {
-//                            q.numero = 100; //estado final                   
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
-//
-//                    case 17:
-//                        if (tok.tipo.equalsIgnoreCase("ID") || tok.tipo.equalsIgnoreCase("NE") || tok.tipo.equalsIgnoreCase("NR")) {
-//                            q.numero = 18;
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
-//
-//                    case 18:
-//                        if (tok.nom.equalsIgnoreCase("$")) {
-//                            q.numero = 100; //estado final                   
-//                        } else {
-//                            q.numero = -1;
-//                        }
-//                        break;
                 }
             }
         }
