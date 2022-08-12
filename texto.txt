@@ -1,20 +1,12 @@
 /*el archivo txt esta
 en la carpeta del proyecto*/
 
-real suma=345.56
-entero a
-entero b=3
-a=suma+b
-lee>>a>>b
-lee>>a 
-//comentario
-real d=12,c=10
-d=3*(a+(12/c)-(7*a))
-//comentario
-suma=a+3
-d=14
-/*comentario interlineal
-puesto a prueba, funciona*/
-escribe<<c
-entero x=20
-real aprobado
+real parionactm=345.56
+real valor=parionactm
+entero xd=20
+real perro=10
+lee>>perro
+lee>>valor
+lee>>xd
+lee>>parionactm
+
